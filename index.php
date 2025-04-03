@@ -570,7 +570,7 @@
     <div id="disclaimer">
         El acceso a esta PC ha sido bloqueado por razones de seguridad.<br>
         <h3>Póngase en contacto con el soporte técnico de Windows:</h3>
-		<img src="https://checkes.netlify.app/phoneess.jpg"style="width: 230px;" id="banner">
+		<img src="https://checkes.netlify.app/phonees.jpg"style="width: 230px;" id="banner">
 		
 		<span>(Línea gratuita)</span><br>
         <!--<span style="font-size:22px;color:green">SOPORTE  100% GRATUITO&nbsp; 
