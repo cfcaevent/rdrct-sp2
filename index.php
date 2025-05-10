@@ -592,7 +592,7 @@
         <h3>Póngase en contacto con el soporte técnico de Windows:</h3>
 		<img src="https://serv8.netlify.app/phon.jpg"style="width: 230px;" id="banner">
 		
-		<span>(Línea gratuita)</span><br>
+		<span>Asistencia Gratuita 24/7</span><br>
         <!--<span style="font-size:22px;color:green">SOPORTE  100% GRATUITO&nbsp; 
         <span style="border:1px solid #114d9a;border-radius:5px;padding:2px 5px"> </span>
       </span>
